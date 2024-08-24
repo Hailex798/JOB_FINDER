@@ -13,7 +13,4 @@ const limiter = rateLimit({
 const router = express.Router();
 
 // Register routes
-router.post("/register", limiter, register);
-router.post("/login", signIn);
 
-export default router;
